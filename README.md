@@ -20,8 +20,8 @@ See: https://github.com/melexis/mlx90640-library
 
 I2C device (e.g. /dev/i2c-0 or /dev/i2c-1) can be selected in <b>i2c_drive.c</b>
 
-make
-Run ./i2c_driver
+make  
+Run ./i2c_driver  
 Run as systemd service : i2c.service
 
 ## Sensor save format
