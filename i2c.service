@@ -1,0 +1,12 @@
+[Unit]
+Description=i2c service service
+After=multi-user.target
+
+[Service]
+Type=simple
+User=pi
+ExecStart=/home/pi/i2c_sensors/i2c_driver
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
